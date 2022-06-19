@@ -1,4 +1,4 @@
-# docker-scratch-curl
+# docker-scratch-curl [![Release Github Packages](https://github.com/antyung88/docker-scratch-curl/actions/workflows/release.yml/badge.svg)](https://github.com/antyung88/docker-scratch-curl/actions/workflows/release.yml)
 Scratch Base with CURL
 
 ```
