@@ -25,10 +25,6 @@ RUN set -x \
 # change working directory to the directory with curl sources
 WORKDIR /tmp/src
 
-# apply patches to the source code
-COPY ./patches ./patches
-RUN for f in ./patches/*.patch; do patch -p1 < "$f"; done
-
 ENV CC="clang" \
     LDFLAGS="-static" \
     PKG_CONFIG="pkg-config --static"
